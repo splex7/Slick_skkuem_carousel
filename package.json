@@ -6,7 +6,7 @@
     "react",
     "carousel"
   ],
-  "homepage": "https://codesandbox.io/s/zzloxr09mp",
+  "homepage": ".",
   "main": "index.js",
   "dependencies": {
     "react": "18.2.0",
