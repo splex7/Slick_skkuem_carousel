@@ -6,22 +6,19 @@ import "./index.css";
 class ReactSlickDemo extends React.Component {
   render() {
     var settings = {
-      dots: true
+      dots: true,
     };
     return (
       <div className="container">
         <Slider {...settings}>
           <div>
-            <img src="http://placekitten.com/g/400/200" />
+            <img src="http://placekitten.com/g/400/200" alt="" />
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/200" />
+            <img src="http://placekitten.com/g/400/200" alt="" />
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/200" />
-          </div>
-          <div>
-            <img src="http://placekitten.com/g/400/200" />
+            <img src="http://placekitten.com/g/400/200" alt="" />
           </div>
         </Slider>
       </div>
