@@ -17,23 +17,6 @@ class ReactSlickDemo extends React.Component {
       pauseOnHover: true,
       fade: true,
       cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1)",
-      responsive: [
-        // 반응형 웹 구현 옵션
-        {
-          breakpoint: 960, //화면 사이즈 960px
-          settings: {
-            //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-            slidesToShow: 3,
-          },
-        },
-        {
-          breakpoint: 768, //화면 사이즈 768px
-          settings: {
-            //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-            slidesToShow: 2,
-          },
-        },
-      ],
     };
     return (
       <div className="container">

@@ -7,6 +7,6 @@
 
 .slick-slide img {
   margin: auto;
-  /* max-width: 100vw; */
+  max-width: 100vw;
   max-height: 100vh;
 }
