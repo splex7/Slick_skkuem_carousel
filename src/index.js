@@ -6,18 +6,19 @@ import "./index.css";
 class ReactSlickDemo extends React.Component {
   render() {
     var settings = {
-      dots: false,
+      dots: true,
       autoplay: true,
       autoplaySpeed: 4000,
       infinite: true,
       speed: 800,
       // slidesToShow: 1,
       // slidesToScroll: 1,
-      // mobileFirst: true,
+      mobileFirst: true,
       pauseOnHover: true,
-      fade: true,
+      fade: false,
       cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1)",
     };
+
     return (
       <div className="container">
         <Slider {...settings}>
