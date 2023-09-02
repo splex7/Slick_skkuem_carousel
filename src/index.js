@@ -6,16 +6,17 @@ import "./index.css";
 class ReactSlickDemo extends React.Component {
   render() {
     var settings = {
-      dots: true,
+      dots: false,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 4000,
       infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      mobileFirst: true,
+      speed: 800,
+      // slidesToShow: 1,
+      // slidesToScroll: 1,
+      // mobileFirst: true,
       pauseOnHover: true,
       fade: true,
+      cssEase: "cubic-bezier(0.645, 0.045, 0.355, 1)",
       responsive: [
         // 반응형 웹 구현 옵션
         {
